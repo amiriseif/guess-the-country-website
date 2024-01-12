@@ -1,0 +1,127 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+	background-color:#009ae0;
+}
+
+
+h1 {
+    margin: 0 auto;
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+footer{
+  position:absolute;
+  bottom: 0%;
+  max-width: 100%; 
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label {
+    font-size: 30px; 
+    font-family: "Lucida Console", "Courier New", monospace;
+	margin: 0 auto;
+    display: block;
+  }
+ input {
+    font-size: 30px; 
+    font-family: "Lucida Console", "Courier New", monospace;
+	margin: 0 auto;
+    display: block; 
+  }
+#banner {
+    
+    max-width: 100%; 
+      
+}
+
+button{
+    font-family: Impact, fantasy;
+	margin: 0 auto;
+    display: block;	
+    padding: 10px 60px;
+    background: #fff;
+    border: 2px solid #000; 
+    font-size: 22px;
+    border-radius: 30px;
+  }
+.result{
+    font-size: 20px; 
+	color:white;
+    font-family: "Lucida Console", "Courier New", monospace;
+	  display: flex;
+      flex-direction: column;
+      align-items: center; /* Center along the column axis */
+           background-color: red;
+      padding: 10px; /* Add padding to create space around each item */
+      margin: 5px; /* Optional: Add margin to create space between items */* Optional: Add margin to create space between items */
+  }
+.cname {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.flag-container {
+    max-width: 100%; 
+    text-align: center; 
+}
+
+.flag-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+    .cname {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+
+
+.hidden {
+    display: none;
+}
+.hf{
+width=100%;}
+
+#score{
+	font-size: 25px; 
+	color:white;
+	background-color:green;
+    font-family: "Lucida Console";
+	margin-top: 0 auto;
+	margin-left: 90%;
+
+
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
